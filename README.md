@@ -1,1 +1,1 @@
-# NextJs-ts
+# Repositorio para aprender Ts y Nextjs
