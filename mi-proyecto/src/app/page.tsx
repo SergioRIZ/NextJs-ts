@@ -1,11 +1,11 @@
-import Saludo from '../components/Saludo';
+import Perfil from '@/components/Perfil';
 
 export default function Home() {
   return (
-    <div className="">
-      <Saludo nombre="Juan" edad={30} />
-      <Saludo nombre="Ana" />
-      <Saludo nombre="Pedro" edad={25} />
-    </div>
+    <main className="min-h-screen bg-gray-50 p-8">
+      <div className="space-y-8 max-w-md mx-auto">
+        <Perfil />
+      </div>
+    </main>
   );
 }
