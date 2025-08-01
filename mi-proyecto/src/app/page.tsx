@@ -1,10 +1,11 @@
-import Perfil from '@/components/Perfil';
+import Tareas from "@/components/TareasPersonales/Tareas";
+
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-50 p-8">
-      <div className="space-y-8 max-w-md mx-auto">
-        <Perfil />
+    <main className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
+      <div className="absolute inset-0">
+      <Tareas/>
       </div>
     </main>
   );
